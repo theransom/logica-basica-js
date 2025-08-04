@@ -1,0 +1,4 @@
+let numero = prompt("Escribe un numero")
+numero = Number(numero)
+if (numero % 3 === 0) {console.log("Divisible entre 3");}
+else {console.log("No divisible entre 3")}
