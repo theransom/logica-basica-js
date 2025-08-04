@@ -1,0 +1,6 @@
+let numero = prompt("Escribe un numero")
+numero = Number(numero);
+if (numero % 3 === 0 && numero % 5 === 0){console.log("Divisible entre 3 y 5");}
+else if (numero % 3 === 0){console.log("Divisble entre 3");}
+else if (numero % 5 === 0){console.log("Divisible entre 5");}
+else {console.log("No dividible ni por 3 ni por 5");}  
